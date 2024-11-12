@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import BgImg from '../public/bgimg.webp'
-import Balance from './component/balance'
+import Balance from './component/Balance'
 import Header from './component/Header'
 import IncomeExpenses from './IncomeExpenses'
 import TransactionList from './TransactionList'
