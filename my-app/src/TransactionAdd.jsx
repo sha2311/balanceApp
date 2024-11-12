@@ -28,8 +28,8 @@ function TransactionAdd({addTransaction}) {
   return (
     <>
     <form onSubmit={handleSubmit} className='flex flex-col items-center mt-10'>
-        <input type="text" onChange={textCng} value={text} className='p-2 m-2 border border-indigo-500' placeholder='please add details' />
-        <input type='number' onChange={submitCng} value={amount} className='p-2 m-2 border border-indigo-500' placeholder='please add details' />
+        <input type="text" onChange={textCng} value={text} className='p-2 rounded m-2 border border-indigo-500' placeholder='please add details' />
+        <input type='number' onChange={submitCng} value={amount} className='p-2 rounded m-2 border border-indigo-500' placeholder='please add details' />
         <button type="submit" className='bg-blue-500 text-white p-2 rounded'>Add Transaction</button>
     </form>
     
